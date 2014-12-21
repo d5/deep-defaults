@@ -1,5 +1,7 @@
 # deep-defaults
 
+[![NPM](https://nodei.co/npm/deep-defaults.png?compact=true)](https://nodei.co/npm/deep-defaults/)
+
 Recursive version of _.defaults.
 
 ```javascript
