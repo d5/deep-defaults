@@ -1,7 +1,7 @@
 {
   "name": "deep-defaults",
-  "description": "Recursive version of _.defaults()",
-  "version": "1.0.0",
+  "description": "Recursive version of _.defaults",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
