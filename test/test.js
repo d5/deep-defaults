@@ -51,7 +51,6 @@ describe('deepDefaults()', function() {
     expect({a:{b:1, c:2}, d:{e:3, f:4}, g:5}, {a:{k:7}}, {a:{b:1, c:2, k:7}, d:{e:3, f:4}, g:5});
     expect({a:{b:1, c:2}, d:{e:3, f:4}, g:5}, {a:{k:7}, d:{i:8}}, {a:{b:1, c:2, k:7}, d:{e:3, f:4, i:8}, g:5});
 
-
     expect({foo:'foo'}, {foo:'foo'}, {foo:'foo'});
     expect({foo:'foo'}, {}, {foo:'foo'});
     expect({}, {foo:'foo'}, {foo:'foo'});
@@ -61,4 +60,10 @@ describe('deepDefaults()', function() {
     expect({foo:{bar:7}}, {foo:'foo'}, {foo:{bar:7}});
     expect({foo:{bar:'foobar'}}, {foo:'barfoo'}, {foo:{bar:'foobar'}});
     expect({foo:'barfoo'}, {foo:{bar:'foobar'}}, {foo:'barfoo'});
+
+    // arrays are not merged
+    expect({}, {foo: [4,5,6]}, {foo: [4,5,6]});
+    expect({foo: [1,2,3]}, {foo: [4,5,6]}, {foo: [1,2,3]});
+    expect({foo: [1,2,3]}, {foo: 'bar'}, {foo: [1,2,3]});
+    expect({foo: [1,2,3]}, {foo: [1,2,3,4]}, {foo: [1,2,3]});
 });
