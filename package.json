@@ -21,5 +21,6 @@
   },
   "scripts": {
     "test": "node_modules/.bin/jshint lib && node_modules/.bin/jshint test && node_modules/.bin/mocha test"
-  }
+  },
+  "license": "MIT"
 }
