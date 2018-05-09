@@ -1,7 +1,7 @@
 {
   "name": "deep-defaults",
   "description": "Recursive version of _.defaults",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "email" : "me@daniel.gs"
   },
   "dependencies": {
-    "lodash": "3.0.x"
+    "lodash": "4.17.5"
   },
   "devDependencies": {
     "jshint": "2.5.x",
