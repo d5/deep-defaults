@@ -13,7 +13,7 @@
     "email" : "me@daniel.gs"
   },
   "dependencies": {
-    "lodash": "4.17.5"
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "jshint": "2.5.x",
