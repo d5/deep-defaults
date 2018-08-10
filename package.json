@@ -9,15 +9,15 @@
   },
   "homepage": "https://github.com/d5/deep-defaults",
   "author": {
-    "name" : "Daniel Kang",
-    "email" : "me@daniel.gs"
+    "name": "Daniel Kang",
+    "email": "me@daniel.gs"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "jshint": "^2.9.5",
-    "mocha": "^4.0.1"
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "node_modules/.bin/jshint lib && node_modules/.bin/jshint test && node_modules/.bin/mocha test"
