@@ -1,3 +1,7 @@
+>
+> This repo is not actively maintained. Please find alternatives.
+>
+
 # deep-defaults
 
 [![NPM](https://nodei.co/npm/deep-defaults.png?compact=true)](https://nodei.co/npm/deep-defaults/)
